@@ -1,0 +1,75 @@
+/* Iconographies.css */
+
+
+/* Unique heading styles */
+.formHeading {
+    font-size: 28px;
+    text-align: center;
+    color: #4a4e69;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+
+/* Form fieldset styles */
+.fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Grid container styles */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Form control styles */
+.form-control {
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Input label and select styles */
+.form-control label, .MuiSelect-select {
+    font-size: 14px;
+    color: #333;
+}
+
+/* TextField styles */
+.MuiTextField-root {
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Image and checkbox alignment */
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Button styles */
+.MuiButton-root {
+    background-color: #5f0f40;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.MuiButton-root:hover {
+    background-color: #3e065f;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
