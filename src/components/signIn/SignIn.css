@@ -1,0 +1,46 @@
+/* Styling for the fieldset */
+fieldset {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* Styling for the legend */
+legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for the Material-UI TextField components */
+.MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+/* Styling for the Material-UI Button */
+.MuiButton-contained {
+  background-color: #007bff;
+  color: white;
+}
+
+.MuiButton-contained:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the Material-UI Link */
+.MuiLink-root {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.MuiLink-root:hover {
+  text-decoration: underline;
+}
+
+/* Flex container for aligning the button and forgot password link */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
